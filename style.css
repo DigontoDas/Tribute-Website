@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #800000;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+
+.top_section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.top_section h1{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.top_section h4{
+    color: white;
+    text-align: end;
+    font-size: 20px;
+
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.image_container{
+    border-radius: 20%;
+    overflow: hidden;
+}
+.image_container, img{
+    width: 300px;
+    height: 200px;
+
+}
+.about_section{
+    margin-top: 50px;
+
+}
+.about_section h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: gold;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+}
+.Movies h3{
+    color:gold;
+    margin-top: 60px;
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+}
+.pather_panchali {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+.pather_panchali img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.pather_panchali p {
+    font-size: 20px;
+    font-weight: 100; /* Not px for font-weight */
+    color: white;
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Adjust as needed */
+}
+.apu p {
+    font-size: 20px;
+    font-weight: 100; /* Not px for font-weight */
+    color: white;
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Adjust as needed */
+}
+.apu {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+.apu img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.devi p {
+    font-size: 20px;
+    font-weight: 100; /* Not px for font-weight */
+    color: white;
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Adjust as needed */
+}
+.devi {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+.devi img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.sonar p {
+    font-size: 20px;
+    font-weight: 100; /* Not px for font-weight */
+    color: white;
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Adjust as needed */
+}
+.sonar {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+.sonar img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.nayak p {
+    font-size: 20px;
+    font-weight: 100; /* Not px for font-weight */
+    color: white;
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Adjust as needed */
+}
+.nayak {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+.nayak img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.footer{
+    margin: 10px 0;
+
+}
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    color: gold;
+}
+.footer a{
+    color: gold;
+    text-decoration: none;
+}
